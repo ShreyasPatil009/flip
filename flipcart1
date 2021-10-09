@@ -1,0 +1,535 @@
+<html>
+<head>
+   <!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- End font-->
+<style>
+     <!-- Star Rating -->
+    .checked {
+    color: orange;
+    }
+    <!--> End Star Rating -->
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:#2874F0;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0 px rbga(0,0,0.2);
+        padding: 12px 16px;
+        color: white;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+</style>    
+<title>Flipcart1</title>
+</head>
+<body bgcolor="#F1F3F6">
+<table border="0" width="100%" bgcolor="#2874F0">
+<tr>
+    <td align="right"><img src=""></td>
+    <td><input type="text" placeholder="Search for products, brands and more" style="width: 550px;height: 35px;">
+    <input type="button" value="Search" style="width:120px;height: 35px;">
+    <th><font color="white">Login & Signup</font></th>
+    <th><font color="white">More</font></th>
+    <th><img src=""></th>
+</tr>
+</table>
+<br>
+<table border="0" width="100%" bgcolor="white" height="8%">
+<tr>
+<th width="12.5%">
+    <div class="dropdown">
+    <span>Electronics</span>
+    <div class="dropdown-content">
+        <p>Mobiles</p>
+        <p>Smart Wearable Tech</p>
+        <p>Health Care Appliances</p>
+        <p>Laptops</p>
+        </div>
+    </div>
+</th>
+    
+<th width="12.5%">
+    <div class="dropdown">
+    <span>TVs & Appliances</span>
+    <div class="dropdown-content">
+        <p>Television</p>
+        <p>Washing Machine</p>
+        <p>Air Conditioners</p>
+        <p>Shop By Brand</p>
+        </div>
+    </div>
+</th>
+
+<th width="12.5%">
+    <div class="dropdown">
+    <span>Men</span>
+    <div class="dropdown-content">
+        <p>Clothing</p>
+        <p>Footwear</p>
+        <p>Winter Wear</p>
+        <p>Shoes</p>
+        </div>
+    </div>
+</th>
+
+<th width="12.5%">
+    <div class="dropdown">
+    <span>Women</span>
+    <div class="dropdown-content">
+        <p>Clothing</p>
+        <p>Saree</p>
+        <p>Heels</p>
+        <p>Party Wear</p>
+        </div>
+    </div>
+</th>
+
+<th width="12.5%">
+    <div class="dropdown">
+    <span>Baby & Kids</span>
+    <div class="dropdown-content">
+        <p>Clothing</p>
+        <p>Toys</p>
+        <p>School Supplies</p>
+        <p>Kids Wear</p>
+        </div>
+    </div>
+</th>
+    
+<th width="12.5%">
+    <div class="dropdown">
+    <span>Home & Furniture</span>
+    <div class="dropdown-content">
+        <p>Kitchen Cookware</p>
+        <p>Kitchen Storage</p>
+        <p>Cleanning Supplies</p>
+        <p>Furnishing</p>
+        </div>
+    </div>
+</th>
+
+<th width="12.5%">
+    <div class="dropdown">
+    <span>Sports,Books & More</span>
+    <div class="dropdown-content">
+        <p>Music</p>
+        <p>Gaming</p>
+        <p>Medical Supplies</p>
+        <p>Books</p>
+        </div>
+    </div>
+</th>
+
+<th width="12.5%">
+    <div class="dropdown">
+    <span>Offer Zone</span>
+    <div class="dropdown-content">
+        <p>Phones</p>
+        <p>Laptops</p>
+        <p>Clothing</p>
+        <p>Watches</p>
+        </div>
+    </div>
+</th>
+
+</tr>
+</table>
+<img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\banner.jpg" width="100%" height="56%">
+<br><br>
+<table border="0" width="100%" bgcolor="white">
+    <tr>
+        <td colspan="5"><h2>School Bags</h2></hr></td></td>
+    <tr>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\bag5.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\bag2.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\bag2.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\bag5.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\bag5.jpg" width="75%" class="zoom"></th>
+    </tr>
+    
+    <tr>
+    <th>
+        <span class="fa fa-star checked" style="color: orange;"></span>
+        <span class="fa fa-star checked" style="color: orange;"></span>
+        <span class="fa fa-star checked" style="color: orange;"></span>
+        <span class="fa fa-star" ></span>
+        <span class="fa fa-star"></span>
+
+        <th>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star" ></span>
+            <span class="fa fa-star"></span>
+
+            <th>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star" ></span>
+                <span class="fa fa-star"></span>
+
+                <th>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star" ></span>
+                    <span class="fa fa-star"></span>
+
+                    <th>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star" ></span>
+                        <span class="fa fa-star"></span>
+    </th>
+    
+    <tr>
+        <th>Price:<font color="green"> 599/-</font></th>
+        <th>Price:<font color="green"> 699/-</font></th>
+        <th>Price:<font color="green"> 799/-<font></th>
+        <th>Price:<font color="green"> 899/-<font></th>
+        <th>Price:<font color="green"> 999/-<font></th>
+
+<tr>
+    <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+
+    <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+
+    <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+
+    <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+
+    <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+
+</table>
+
+<br><br>
+<table border="0" width="100%" bgcolor="white">
+    <tr>
+        <td colspan="5"><h2>Earphones</h2></hr></td></td>
+    <tr>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\ear1.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\ear2.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\ear3.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\ear5.jpg" width="75%" class="zoom"></th>
+    </tr>
+    <tr>
+        <th>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star" ></span>
+            <span class="fa fa-star"></span>
+    
+            <th>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star" ></span>
+                <span class="fa fa-star"></span>
+    
+                <th>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star" ></span>
+                    <span class="fa fa-star"></span>
+    
+                    <th>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star" ></span>
+                        <span class="fa fa-star"></span>
+    
+                        <th>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star" ></span>
+                            <span class="fa fa-star"></span>
+        </th>
+        <tr>
+        <th>Price:<font color="green"> 599/-</font></th>
+        <th>Price:<font color="green"> 699/-</font></th>
+        <th>Price:<font color="green"> 799/-<font></th>
+        <th>Price:<font color="green"> 899/-<font></th>
+        <th>Price:<font color="green"> 999/-<font></th>
+
+            <tr>
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+</table> 
+
+<br><br>
+<table border="0" width="100%" bgcolor="white">
+    <tr>
+        <td colspan="5"><h2>Kitchen Appliances</h2></hr></td></td>
+    <tr>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\kitchen1.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\kitchen2.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\kitchen3.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\kitchen2.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\kitchen5.jpg" width="75%" class="zoom"></th>
+    </tr>
+    <tr>
+        <th>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star" ></span>
+            <span class="fa fa-star"></span>
+    
+            <th>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star" ></span>
+                <span class="fa fa-star"></span>
+    
+                <th>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star" ></span>
+                    <span class="fa fa-star"></span>
+    
+                    <th>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star" ></span>
+                        <span class="fa fa-star"></span>
+    
+                        <th>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star" ></span>
+                            <span class="fa fa-star"></span>
+        </th>
+        <tr>
+        <th>Price:<font color="green"> 599/-</font></th>
+        <th>Price:<font color="green"> 699/-</font></th>
+        <th>Price:<font color="green"> 799/-<font></th>
+        <th>Price:<font color="green"> 899/-<font></th>
+        <th>Price:<font color="green"> 999/-<font></th>
+
+            <tr>
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+</table>
+
+<br><br>
+<table border="0" width="100%" bgcolor="white">
+    <tr>
+        <td colspan="5"><h2>Mobiles</h2></hr></td></td>
+    <tr>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\mobile2.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\mobile2.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\mobile2.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\mobile2.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\mobile2.jpg" width="75%" class="zoom"></th>
+    </tr>
+    <tr>
+        <th>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star" ></span>
+            <span class="fa fa-star"></span>
+    
+            <th>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star" ></span>
+                <span class="fa fa-star"></span>
+    
+                <th>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star" ></span>
+                    <span class="fa fa-star"></span>
+    
+                    <th>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star" ></span>
+                        <span class="fa fa-star"></span>
+    
+                        <th>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star" ></span>
+                            <span class="fa fa-star"></span>
+        </th>
+        <tr>
+        <th>Price:<font color="green"> 599/-</font></th>
+        <th>Price:<font color="green"> 699/-</font></th>
+        <th>Price:<font color="green"> 799/-<font></th>
+        <th>Price:<font color="green"> 899/-<font></th>
+        <th>Price:<font color="green"> 999/-<font></th>
+
+            <tr>
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+</table>
+
+<br><br>
+<table border="0" width="100%" bgcolor="white">
+    <tr>
+        <td colspan="5"><h2>Laptos</h2></hr></td></td>
+    <tr>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\lapi1.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\lapi1.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\lapi4.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\lapi1.jpg" width="75%" class="zoom"></th>
+        <th><img src="C:\Users\Dell\Desktop\Mini Projects Stinge\HTML mini project\week2\lapi5.jpg" width="75%" class="zoom"></th>
+    </tr>
+    <tr>
+        <th>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star checked" style="color: orange;"></span>
+            <span class="fa fa-star" ></span>
+            <span class="fa fa-star"></span>
+    
+            <th>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star" ></span>
+                <span class="fa fa-star"></span>
+    
+                <th>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star checked" style="color: orange;"></span>
+                    <span class="fa fa-star" ></span>
+                    <span class="fa fa-star"></span>
+    
+                    <th>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star checked" style="color: orange;"></span>
+                        <span class="fa fa-star" ></span>
+                        <span class="fa fa-star"></span>
+    
+                        <th>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star checked" style="color: orange;"></span>
+                            <span class="fa fa-star" ></span>
+                            <span class="fa fa-star"></span>
+        </th>
+        <tr>
+        <th>Price:<font color="green"> 599/-</font></th>
+        <th>Price:<font color="green"> 699/-</font></th>
+        <th>Price:<font color="green"> 799/-<font></th>
+        <th>Price:<font color="green"> 899/-<font></th>
+        <th>Price:<font color="green"> 999/-<font></th>
+
+            <tr>
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+            
+                <th><input type="button" value="Show Details" style="width: 150px;height: 30px;background-color:blue;color: white;"></th>
+</table>
+<br><br>
+
+<!-- Footer-->
+
+<table border="0" width="100%" bgcolor="#343550">
+    <tr>
+    <td bgcolor="#343550"><font color="white" width="25%"><b>About</b></font></td> 
+    <td bgcolor="#343550"><font color="white" width="25%"><b>Help</b></font></td> 
+    <td bgcolor="#343550"><font color="white" width="25%"><b>Policy</b></font></td> 
+    <td bgcolor="#343550"><font color="white" width="25%"><b>Social</b></font></td> 
+    </tr>  
+    
+    <tr>
+        <td>
+            <ul>
+                <li><font color="white">Contact Us</font></li>
+                <li><font color="white">About Us</font></li>
+                <li><font color="white">Careers</font></li>
+                <li><font color="white">Flipcart Stories</font></li>
+            </ul>    
+    
+
+ 
+        <td>
+            <ul>
+                <li><font color="white">Payments</font></li>
+                <li><font color="white">Shipping</font></li>
+                <li><font color="white">FAQ</font></li>
+                <li><font color="white">Report</font></li>
+            </ul>    
+    
+
+    
+        <td>
+            <ul>
+                <li><font color="white">Return</font></li>
+                <li><font color="white">Security</font></li>
+                <li><font color="white">Privacy</font></li>
+                <li><font color="white">Sitemap</font></li>
+            </ul>    
+   
+
+  
+        <td>
+            <ul>
+                <li><font color="white">Facebook</font></li>
+                <li><font color="white">Twitter</font></li>
+                <li><font color="white">Youtube</font></li>
+                <li><font color="white">Instagram</font></li>
+            </ul>   
+            
+        <td><input type="text" placeholder="Search">
+        <input type="button" value="Search">
+    </td>    
+    </tr>
+
+</table>
+
+<!--End Footer-->
+</body>
+</html>
